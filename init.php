@@ -38,6 +38,8 @@ class Af_WhatIf extends Plugin {
                if ($matches[1]) {
                   $new_id = $ele_id->nodeValue . "/" . $matches[1];
                   $ele_id->nodeValue = $new_id;
+                  $ele_link = $entry->getElementsByTagName('link')->item(0);
+                  $ele_link->setAttribute('href', $new_id);
                   //print "new_id: ${new_id}\n";
                }
             }
