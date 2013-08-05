@@ -6,5 +6,5 @@ A Tiny Tiny RSS (http://tt-rss.org) plugin to fix article GUIDs and links in [wh
 Installation
 ------------
  - From your TT-RSS directory, run
-    `git clone git://github.com/lotrfan/ttrss\_af\_whatif.git plugins/af\_whatif`
+    `git clone git://github.com/lotrfan/ttrss_af_whatif.git plugins/af_whatif`
  - Enable the plugin in TT-RSS Preferences
